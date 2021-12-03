@@ -25,9 +25,9 @@ function verificaNota() {
 	<%-- Envia os inputs abaixo para a ServletAutentica --%>
 <input type="hidden" name="acao" value = "confirmarCadastro">
 <p align="center"> Disciplina: <input type="text" name="usuarioDisciplina"></p>
-<p align="center"> Nota: <input id="nota" type="text" name="usuarioNota" onclick='verificaNota();'></p>
-																		 <%-- Implementa a verificação no campo "nota" --%>
-<p align="center"><input type="button" value="Cadastrar"  > </p>
+<p align="center"> Nota: <input id="nota" type="text" name="usuarioNota" ></p>
+<p align="center"><input type="button" value="Cadastrar"  onclick='verificaNota();'> </p>
+																 <%-- Implementa a verificação no campo "nota" --%>
  	<%-- Cria inputs para que o usuário digite os dados --%>	  
 </form>
 <p align="center"><a href="ServletControlador">Clique aqui</a> para voltar ao menu principal.</p>

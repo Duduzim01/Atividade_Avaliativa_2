@@ -50,7 +50,7 @@ public class ServletAutentica extends HttpServlet {
 			request.getRequestDispatcher("ServletControlador").forward(request, response);
 		} else {
 			resposta.write("Usuário e senha inválidos.");
-			// Cria uma condiçãio de verificação que, caso seja verdadeiro, envia para a ServletControle e caso seja falsa, apresenta uma mensagem de erro
+		// Cria uma condiçãio de verificação que, caso seja verdadeiro, envia para a ServletControle e caso seja falsa, apresenta uma mensagem de erro
 		}
 		
 		resposta.write("</body></html>");
